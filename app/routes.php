@@ -14,3 +14,6 @@
 Route::get('/', 'UserController@index');
 Route::post('/', 'UserController@login');
 
+Route::group(array('before'=>'auth'), function(){
+    Route::get('/auth_member/dashboard', 'MemberController@index');
+});
