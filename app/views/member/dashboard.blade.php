@@ -47,7 +47,7 @@
 <!-- header logo: style can be found in header.less -->
 <header class="header">
 <a href="index.html" class="logo">
-    Director
+    Member
 </a>
 <!-- Header Navbar: style can be found in header.less -->
 <nav class="navbar navbar-static-top" role="navigation">
@@ -316,230 +316,16 @@
     <!-- Main content -->
     <section class="content">
 
-        <div class="row">
-            <div class="col-md-3">
-                <div class="small-stat clearfix">
-                    <span class="small-stat-icon orange"><i class="fa fa-gavel"></i></span>
-                    <div class="small-stat-info">
-                        <span>320</span>
-                        New Order Received
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="small-stat clearfix">
-                    <span class="small-stat-icon tar"><i class="fa fa-tag"></i></span>
-                    <div class="small-stat-info">
-                        <span>22,450</span>
-                        Copy Sold Today
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="small-stat clearfix">
-                    <span class="small-stat-icon pink"><i class="fa fa-money"></i></span>
-                    <div class="small-stat-info">
-                        <span>34,320</span>
-                        Dollar Profit Today
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="small-stat clearfix">
-                    <span class="small-stat-icon green"><i class="fa fa-eye"></i></span>
-                    <div class="small-stat-info">
-                        <span>32720</span>
-                        Unique Visitors
-                    </div>
-                </div>
-            </div>
-        </div>
+
 
         <!-- Main row -->
         <div class="row">
 
             <div class="col-md-8">
-                <!--earning graph start-->
-                <section class="panel">
-                    <header class="panel-heading">
-                        Earning Graph
-                    </header>
-                    <div class="panel-body">
 
-                        <div id="graph-area" class="main-chart">
-                        </div>
-                        <div class="region-stats">
-                            <div class="row">
-                                <div class="col-md-7">
-                                    <div class="reg-earn-stat">
-                                        This year total earning <span>$68,4545,454</span>
-                                    </div>
-                                    <ul class="clearfix loc-earn-stat">
-                                        <li class="stat-divider">
-                                            <span class="first-city">$734503</span>
-                                            Rocky Mt,NC </li>
-                                        <li class="stat-divider">
-                                            <span class="second-city">$734503</span>
-                                            Dallas/FW,TX </li>
-                                        <li>
-                                            <span class="third-city">$734503</span>
-                                            Millville,NJ </li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-5">
-                                    <div id="world-map" class="vector-stat">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!--earning graph end-->
 
             </div>
             <div class="col-lg-4">
-
-                <!--chat start-->
-                <section class="panel">
-                    <header class="panel-heading">
-                        Chat
-                    </header>
-                    <div class="panel-body" id="chat-box">
-                        <div class="chat-conversation">
-                            <ul class="chat-list">
-                                <li class="clearfix">
-                                    <div class="chat-avatar">
-                                        <img class="img-rounded" src="img/avatar5.png" alt="male">
-                                        <i>10:00</i>
-                                    </div>
-                                    <div class="conversation-text">
-                                        <div class="ctext-wrap chat-primary">
-                                            <!-- <i>John Carry</i> -->
-                                            <p>
-                                                Hello, How are you?
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="clearfix odd">
-                                    <div class="chat-avatar">
-                                        <img class="img-rounded" src="img/avatar5.png" alt="female">
-                                        <i>10:00</i>
-                                    </div>
-                                    <div class="conversation-text">
-                                        <div class="ctext-wrap">
-                                            <!-- <i>Lisa Peterson</i> -->
-                                            <p>
-                                                I'm Fine. What about you?
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="clearfix">
-                                    <div class="chat-avatar">
-                                        <img class="img-rounded" src="img/avatar5.png" alt="male">
-                                        <i>10:00</i>
-                                    </div>
-                                    <div class="conversation-text">
-                                        <div class="ctext-wrap chat-indigo">
-                                            <!-- <i>John Carry</i> -->
-                                            <p>
-                                                Yeah I'm fine too. Everything is going fine here.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="clearfix odd">
-                                    <div class="chat-avatar">
-                                        <img class="img-rounded" src="img/avatar5.png" alt="female">
-                                        <i>10:00</i>
-                                    </div>
-                                    <div class="conversation-text">
-                                        <div class="ctext-wrap">
-                                            <!-- <i>Lisa Peterson</i> -->
-                                            <p>
-                                                Wow that's great
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="clearfix">
-                                    <div class="chat-avatar">
-                                        <img class="img-rounded" src="img/avatar5.png" alt="male">
-                                        <i>10:00</i>
-                                    </div>
-                                    <div class="conversation-text">
-                                        <div class="ctext-wrap chat-midnightblue">
-                                            <!-- <i>John Carry</i> -->
-                                            <p>
-                                                Yeah I'm fine too. Everything is going fine here.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="clearfix odd">
-                                    <div class="chat-avatar">
-                                        <img class="img-rounded" src="img/avatar5.png" alt="female">
-                                        <i>10:00</i>
-                                    </div>
-                                    <div class="conversation-text">
-                                        <div class="ctext-wrap">
-                                            <!-- <i>Lisa Peterson</i> -->
-                                            <p>
-                                                Wow that's great
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="clearfix">
-                                    <div class="chat-avatar">
-                                        <img class="img-rounded" src="img/avatar5.png" alt="male">
-                                        <i>10:00</i>
-                                    </div>
-                                    <div class="conversation-text">
-                                        <div class="ctext-wrap chat-primary">
-                                            <!-- <i>John Carry</i> -->
-                                            <p>
-                                                Yeah I'm fine too. Everything is going fine here.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-
-                            </ul>
-
-                        </div>
-                    </div>
-                    <div class="panel-footer chat-footer clearfix">
-                        <div class="col-xs-9">
-                            <input type="text" class="form-control chat-input" placeholder="Enter your text">
-                        </div>
-                        <div class="col-xs-3 chat-send">
-                            <button type="submit" class="btn btn-info">Send</button>
-                        </div>
-                    </div>
-                </section>
-                <!--chat end-->
-                <section class="panel">
-                    <div class="weather-bg">
-                        <div class="panel-body">
-                            <div class="row">
-                                <div class="col-xs-6">
-                                    <i class="fa fa-cloud"></i>
-                                    California
-                                </div>
-                                <div class="col-xs-6">
-                                    <div class="degree">
-                                        24°
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                </section>
 
 
 
@@ -549,23 +335,20 @@
         </div>
         <div class="row">
 
-            <div class="col-md-8">
+            <div class="col-md-12">
                 <section class="panel">
                     <header class="panel-heading">
-                        Work Progress
+                        Student Status
                     </header>
                     <div class="panel-body">
                         <table class="table table-hover">
                             <thead>
                             <tr>
                                 <th>#</th>
-                                <th>Project</th>
-                                <th>Manager</th>
-                                <!-- <th>Client</th> -->
-                                <th>Deadline</th>
-                                <!-- <th>Price</th> -->
-                                <th>Status</th>
-                                <th>Progress</th>
+                                <th>Student's Name</th>
+                                <th>email</th>
+                                <th>Supervisor</th>
+                                <th>Second Marker</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -646,249 +429,11 @@
 
 
             </div><!--end col-6 -->
-            <div class="col-md-4">
-                <section class="panel">
-                    <header class="panel-heading">
-                        Twitter Feed
-                    </header>
-                    <div class="panel-body">
-                        <div class="twt-area">
-                            <form action="#" method="post">
-                                <textarea class="form-control" name="profile-tweet" placeholder="Share something on Twitter.." rows="3"></textarea>
 
-                                <div class="clearfix">
-                                    <button class="btn btn-sm btn-primary pull-right" type="submit">
-                                        <i class="fa fa-twitter"></i>
-                                        Tweet
-                                    </button>
-                                    <a class="btn btn-link btn-icon fa fa-location-arrow" data-original-title="Add Location" data-placement="bottom" data-toggle="tooltip" href=
-                                    "#" style="text-decoration:none;" title=""></a>
-                                    <a class="btn btn-link btn-icon fa fa-camera" data-original-title="Add Photo" data-placement="bottom" data-toggle="tooltip" href="#"
-                                       style="text-decoration:none;" title=""></a>
-                                </div>
-                            </form>
-                        </div>
-                        <ul class="media-list">
-                            <li class="media">
-                                <a href="#" class="pull-left">
-                                    <img src="img/26115.jpg" alt="Avatar" class="img-circle" width="64" height="64">
-                                </a>
-                                <div class="media-body">
-                            <span class="text-muted pull-right">
-                                <small><em>30 min ago</em></small>
-                            </span>
-                                    <a href="page_ready_user_profile.php">
-                                        <strong>John Doe</strong>
-                                    </a>
-                                    <p>
-                                        In hac <a href="#">habitasse</a> platea dictumst. Proin ac nibh rutrum lectus rhoncus eleifend.
-                                        <a href="#" class="text-danger">
-                                            <strong>#dev</strong>
-                                        </a>
-                                    </p>
-                                </div>
-                            </li>
-                            <li class="media">
-                                <a href="#" class="pull-left">
-                                    <img src="img/26115.jpg" alt="Avatar" class="img-circle" width="64" height="64">
-                                </a>
-                                <div class="media-body">
-                            <span class="text-muted pull-right">
-                                <small><em>30 min ago</em></small>
-                            </span>
-                                    <a href="page_ready_user_profile.php">
-                                        <strong>John Doe</strong>
-                                    </a>
-                                    <p>
-                                        In hac <a href="#">habitasse</a> platea dictumst. Proin ac nibh rutrum lectus rhoncus eleifend.
-                                        <a href="#" class="text-danger">
-                                            <strong>#design</strong>
-                                        </a>
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-            </div>
-
-        </div>
-        <div class="row">
-            <div class="col-md-5">
-                <div class="panel">
-                    <header class="panel-heading">
-                        Teammates
-                    </header>
-
-                    <ul class="list-group teammates">
-                        <li class="list-group-item">
-                            <a href=""><img src="img/26115.jpg" width="50" height="50"></a>
-                            <span class="pull-right label label-danger inline m-t-15">Admin</span>
-                            <a href="">Damon Parker</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href=""><img src="img/26115.jpg"  width="50" height="50"></a>
-                            <span class="pull-right label label-info inline m-t-15">Member</span>
-                            <a href="">Joe Waston</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href=""><img src="img/26115.jpg"  width="50" height="50"></a>
-                            <span class="pull-right label label-warning inline m-t-15">Editor</span>
-                            <a href="">Jannie Dvis</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href=""><img src="img/26115.jpg"  width="50" height="50"></a>
-                            <span class="pull-right label label-warning inline m-t-15">Editor</span>
-                            <a href="">Emma Welson</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href=""><img src="img/26115.jpg"  width="50" height="50"></a>
-                            <span class="pull-right label label-success inline m-t-15">Subscriber</span>
-                            <a href="">Emma Welson</a>
-                        </li>
-                    </ul>
-                    <div class="panel-footer bg-white">
-                        <!-- <span class="pull-right badge badge-info">32</span> -->
-                        <button class="btn btn-primary btn-addon btn-sm">
-                            <i class="fa fa-plus"></i>
-                            Add Teammate
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-7">
-                <section class="panel tasks-widget">
-                    <header class="panel-heading">
-                        Todo list
-                    </header>
-                    <div class="panel-body">
-
-                        <div class="task-content">
-
-                            <ul class="task-list">
-                                <li>
-                                    <div class="task-checkbox">
-                                        <!-- <input type="checkbox" class="list-child" value=""  /> -->
-                                        <input type="checkbox" class="flat-grey list-child"/>
-                                        <!-- <input type="checkbox" class="square-grey"/> -->
-                                    </div>
-                                    <div class="task-title">
-                                        <span class="task-title-sp">Director is Modern Dashboard</span>
-                                        <span class="label label-success">2 Days</span>
-                                        <div class="pull-right hidden-phone">
-                                            <button class="btn btn-default btn-xs"><i class="fa fa-check"></i></button>
-                                            <button class="btn btn-default btn-xs"><i class="fa fa-pencil"></i></button>
-                                            <button class="btn btn-default btn-xs"><i class="fa fa-times"></i></button>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="task-checkbox">
-                                        <!-- <input type="checkbox" class="list-child" value=""  /> -->
-                                        <input type="checkbox" class="flat-grey"/>
-                                    </div>
-                                    <div class="task-title">
-                                        <span class="task-title-sp">Fully Responsive & Bootstrap 3.0.2 Compatible</span>
-                                        <span class="label label-danger">Done</span>
-                                        <div class="pull-right hidden-phone">
-                                            <button class="btn btn-default btn-xs"><i class="fa fa-check"></i></button>
-                                            <button class="btn btn-default btn-xs"><i class="fa fa-pencil"></i></button>
-                                            <button class="btn btn-default btn-xs"><i class="fa fa-times"></i></button>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="task-checkbox">
-                                        <!-- <input type="checkbox" class="list-child" value=""  /> -->
-                                        <input type="checkbox" class="flat-grey"/>
-                                    </div>
-                                    <div class="task-title">
-                                        <span class="task-title-sp">Daily Standup Meeting</span>
-                                        <span class="label label-warning">Company</span>
-                                        <div class="pull-right hidden-phone">
-                                            <button class="btn btn-default btn-xs"><i class="fa fa-check"></i></button>
-                                            <button class="btn btn-default btn-xs"><i class="fa fa-pencil"></i></button>
-                                            <button class="btn btn-default btn-xs"><i class="fa fa-times"></i></button>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="task-checkbox">
-                                        <!-- <input type="checkbox" class="list-child" value=""  /> -->
-                                        <input type="checkbox" class="flat-grey"/>
-                                    </div>
-                                    <div class="task-title">
-                                        <span class="task-title-sp">Write well documentation for this theme</span>
-                                        <span class="label label-primary">3 Days</span>
-                                        <div class="pull-right hidden-phone">
-                                            <button class="btn btn-default btn-xs"><i class="fa fa-check"></i></button>
-                                            <button class="btn btn-default btn-xs"><i class="fa fa-pencil"></i></button>
-                                            <button class="btn btn-default btn-xs"><i class="fa fa-times"></i></button>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="task-checkbox">
-                                        <!-- <input type="checkbox" class="list-child" value=""  /> -->
-                                        <input type="checkbox" class="flat-grey"/>
-                                    </div>
-                                    <div class="task-title">
-                                        <span class="task-title-sp">Don't be hesitate to purchase this Dashbord</span>
-                                        <span class="label label-inverse">Now</span>
-                                        <div class="pull-right">
-                                            <button class="btn btn-default btn-xs"><i class="fa fa-check"></i></button>
-                                            <button class="btn btn-default btn-xs"><i class="fa fa-pencil"></i></button>
-                                            <button class="btn btn-default btn-xs"><i class="fa fa-times"></i></button>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="task-checkbox">
-                                        <!-- <input type="checkbox" class="list-child" value=""  /> -->
-                                        <input type="checkbox" class="flat-grey"/>
-                                    </div>
-                                    <div class="task-title">
-                                        <span class="task-title-sp">Code compile and upload</span>
-                                        <span class="label label-success">2 Days</span>
-                                        <div class="pull-right hidden-phone">
-                                            <button class="btn btn-default btn-xs"><i class="fa fa-check"></i></button>
-                                            <button class="btn btn-default btn-xs"><i class="fa fa-pencil"></i></button>
-                                            <button class="btn btn-default btn-xs"><i class="fa fa-times"></i></button>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="task-checkbox">
-                                        <!-- <input type="checkbox" class="list-child" value=""  /> -->
-                                        <input type="checkbox" class="flat-grey"/>
-                                    </div>
-                                    <div class="task-title">
-                                        <span class="task-title-sp">Tell your friends to buy this dashboad</span>
-                                        <span class="label label-danger">Now</span>
-                                        <div class="pull-right hidden-phone">
-                                            <button class="btn btn-default btn-xs"><i class="fa fa-check"></i></button>
-                                            <button class="btn btn-default btn-xs"><i class="fa fa-pencil"></i></button>
-                                            <button class="btn btn-default btn-xs"><i class="fa fa-times"></i></button>
-                                        </div>
-                                    </div>
-                                </li>
-
-                            </ul>
-                        </div>
-
-                        <div class=" add-task-row">
-                            <a class="btn btn-success btn-sm pull-left" href="#">Add New Tasks</a>
-                            <a class="btn btn-default btn-sm pull-right" href="#">See All Tasks</a>
-                        </div>
-                    </div>
-                </section>
-            </div>
         </div>
         <!-- row end -->
     </section><!-- /.content -->
-    <div class="footer-main">
-        Copyright &copy Director, 2014
-    </div>
+
 </aside><!-- /.right-side -->
 
 </div><!-- ./wrapper -->
@@ -898,42 +443,42 @@
 
 <!-- jQuery 2.0.2 -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-<script src="js/jquery.min.js" type="text/javascript"></script>
+{{ HTML::script('core/js/jquery.min.js') }}
 
 <!-- jQuery UI 1.10.3 -->
-<script src="js/jquery-ui-1.10.3.min.js" type="text/javascript"></script>
+{{ HTML::script ('core/js/jquery-ui-1.10.3.min.js') }}
 <!-- Bootstrap -->
-<script src="js/bootstrap.min.js" type="text/javascript"></script>
+{{ HTML::script ('core/js/bootstrap.min.js') }}
 <script src="js/raphael-min.js" type="text/javascript"></script>
 <!-- Morris.js charts -->
 <!--<script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>-->
-<script src="js/plugins/morris/morris.min.js" type="text/javascript"></script>
+{{ HTML::script ('core/js/plugins/morris/morris.min.js') }}
 <!-- Sparkline -->
-<script src="js/plugins/sparkline/jquery.sparkline.min.js" type="text/javascript"></script>
+{{ HTML::script ('core/js/plugins/sparkline/jquery.sparkline.min.js') }}
 <!-- jvectormap -->
-<script src="js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" type="text/javascript"></script>
-<script src="js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" type="text/javascript"></script>
+{{ HTML::script ('core/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js') }}
+{{ HTML::script ('core/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js') }}
 <!-- jQuery Knob Chart -->
-<script src="js/plugins/jqueryKnob/jquery.knob.js" type="text/javascript"></script>
+{{ HTML::script ('core/js/plugins/jqueryKnob/jquery.knob.js') }}
 <!-- daterangepicker -->
-<script src="js/plugins/daterangepicker/daterangepicker.js" type="text/javascript"></script>
+{{ HTML::script ('core/js/plugins/daterangepicker/daterangepicker.js') }}
 <!-- datepicker
-<script src="js/plugins/datepicker/bootstrap-datepicker.js" type="text/javascript"></script>-->
+{{ HTML::script ('core/js/plugins/datepicker/bootstrap-datepicker.js') }}
 <!-- Bootstrap WYSIHTML5
-<script src="js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>-->
+{{ HTML::script ('core/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js') }}
 <!-- iCheck -->
-<script src="js/plugins/iCheck/icheck.min.js" type="text/javascript"></script>
+{{ HTML::script ('core/js/plugins/iCheck/icheck.min.js') }}
 <!-- calendar -->
-<script src="js/plugins/fullcalendar/fullcalendar.js" type="text/javascript"></script>
+{{ HTML::script ('core/js/plugins/fullcalendar/fullcalendar.js') }}
 
 <!-- Director App -->
-<script src="js/Director/app.js" type="text/javascript"></script>
+{{ HTML::script ('core/js/Director/app.js') }}
 
 <!-- Director dashboard demo (This is only for demo purposes) -->
-<script src="js/Director/dashboard.js" type="text/javascript"></script>
+{{ HTML::script ('core/js/Director/dashboard.js') }}
 
 <!-- Director for demo purposes -->
-<script src="js/Director/demo.js" type="text/javascript"></script>
+{{ HTML::script ('core/js/Director/demo.js') }}
 <script type="text/javascript">
 $('input').on('ifChecked', function(event) {
     // var element = $(this).parent().find('input:checkbox:first');
