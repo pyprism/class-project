@@ -18,7 +18,7 @@ class UserController extends BaseController {
         if(Auth::attempt(array('email'=>Input::get('email') , 'password'=>Input::get('password')))){
            $user = User::where('email', Input::get('email'))->first();
             if ($user->role == 'auth_member')
-                return Redirect::to('/auth_member');
+                return Redirect::to('/auth_member/dashboard');
             elseif ($user->role == 'student')
                 return Redirect::to('/student/dashboard');
             elseif ($user->role == 'second_marker')
