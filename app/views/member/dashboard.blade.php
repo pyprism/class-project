@@ -284,13 +284,13 @@
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu">
             <li class="active">
-                <a href="index.html">
+                <a href="#">
                     <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                 </a>
             </li>
             <li>
-                <a href="general.html">
-                    <i class="fa fa-gavel"></i> <span>General</span>
+                <a href="/auth_member/allocation">
+                    <i class="fa fa-gavel"></i> <span>Allocation</span>
                 </a>
             </li>
 
@@ -334,8 +334,8 @@
 
         </div>
         <div class="row">
-
             <div class="col-md-12">
+                @if(!isset($allocated_students))
                 <section class="panel">
                     <header class="panel-heading">
                         Student Status
@@ -424,6 +424,9 @@
                             </tr>
                             </tbody>
                         </table>
+                        @else
+                            No students allocated right now !
+                        @endif
                     </div>
                 </section>
 

@@ -26,6 +26,12 @@ class UsersTableSeeder extends Seeder {
             'email' => "fake@email.com",
             'password' => Hash::make('1234')
         ]);
+        User::create([
+            'role' => "auth_member",
+            'name' => "Mr.Prism",
+            'email' => "git.pyprism@gmail.com",
+            'password' => Hash::make('1234')
+        ]);
 
         // seeder for 3 second markers
         foreach(range(1, 3) as $index) {

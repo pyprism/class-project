@@ -15,5 +15,7 @@ Route::get('/', 'UserController@index');
 Route::post('/', 'UserController@login');
 
 Route::group(array('before'=>'auth'), function(){
-    Route::get('/auth_member/dashboard', 'MemberController@index');
+    Route::get('/auth_member/{email}/dashboard', 'MemberController@index');
+    Route::get('/auth_member/allocation', 'MemberController@allocation');
+   // Route::post('/auth_member/allocation/save', 'MemberController@allocation_save');
 });

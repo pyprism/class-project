@@ -15,6 +15,11 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 	 * @var string
 	 */
 
+    public function allocation()
+    {
+        return $this->hasOne('Allocations');
+    }
+
     public $timestamps = false;
 	protected $table = 'users';
 
