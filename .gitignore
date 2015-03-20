@@ -1,0 +1,16 @@
+*.pyc
+*.db
+*.sqlite
+*.sqlite3
+node_modules
+.idea
+bin/
+include/
+lib/
+env/
+.pyc
+hiren/static/bower/
+hiren/static/bootstrap
+hiren/static/font-awesome
+hiren/static/jquery
+hiren/static/simpleStorage
